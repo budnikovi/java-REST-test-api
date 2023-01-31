@@ -15,7 +15,7 @@ public class UserService {
 
     public Users createUserService() {
         Users users = new Users();
-        users.setBirthDate(new Date());
+//        users.setBirthDate(new Date());
         users.setEmail("sdgff@gmail.com");
         users.setFirstName("John");
         users.setLastName("Johnson");

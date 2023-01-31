@@ -15,7 +15,7 @@ public class Users {
     private String firstName;
     @Column(nullable = false, length = 50)
     private String lastName;
-    @Column(nullable = false)
+    @Column
     private Date birthDate;
     @Column( length = 50)
     private String address;
